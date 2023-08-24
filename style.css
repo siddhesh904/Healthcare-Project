@@ -1,0 +1,39 @@
+.custom-element {
+    position: relative; /* You usually need to set a position value for z-index to work */
+    z-index: 10; /* Adjust the value as needed */
+  }
+  /*  style="height: 250px; width: 250px; margin: 41px 20px 29px 250px; "  */
+
+  /* class="rounded" */
+
+
+.dashed-line{
+    border-top:2px dashed rgb(0, 42, 255) ;
+
+}
+
+li.marker::marker{
+    color: blue;
+    font-size: 20px;
+    background-color: blue;
+}
+
+
+/* Hide the navigation links initially */
+div.fixed {
+    position: sticky;
+    /* top: 100px; */
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+  }
+
+
+  .sticky-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020; /* Adjust the z-index as needed */
+  }
+
